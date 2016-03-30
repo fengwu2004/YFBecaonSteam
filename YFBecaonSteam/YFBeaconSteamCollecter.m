@@ -1,6 +1,6 @@
 //
-//  YFBecaonSteam.m
-//  YFBecaonSteam
+//  YFBeaconSteamCollecter.m
+//  YFBeaconSteamCollecter
 //
 //  Created by ky on 16/3/30.
 //  Copyright © 2016年 ky. All rights reserved.
@@ -20,7 +20,7 @@
 
 @implementation YFBeaconSteamCollecter
 
-- (instancetype)initWithSource:(NSArray<__kindof YFBeaconEmitter*>*)emitters delegate:(id<YFBeaconSteamCollecterDelegate>)delegate {
+- (instancetype)initWithSource:(NSArray<YFBeaconEmitter*>*)emitters delegate:(id<YFBeaconSteamCollecterDelegate>)delegate {
     
     self = [super init];
     
@@ -62,7 +62,7 @@
     [_delegate onReceiveBeaconData:output sender:self];
 }
 
-- (NSArray*)transBeaconData:(NSArray<__kindof CLBeacon*>*)beacons {
+- (NSArray*)transBeaconData:(NSArray<CLBeacon*>*)beacons {
     
     NSMutableArray *array = [[NSMutableArray alloc] init];
     
