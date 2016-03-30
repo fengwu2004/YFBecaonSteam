@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CEC6A6E1CABD04A004104C1 /* YFBeaconSteamCollecter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CEC6A6D1CABD04A004104C1 /* YFBeaconSteamCollecter.h */; };
-		2CEC6A701CABD04A004104C1 /* YFBeaconSteamCollecter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC6A6F1CABD04A004104C1 /* YFBeaconSteamCollecter.m */; };
-		2CEC6A781CABD0BA004104C1 /* YFBeaconEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC6A771CABD0BA004104C1 /* YFBeaconEmitter.m */; };
-		2CEC6A7B1CABD243004104C1 /* YFBecaonStreamData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC6A7A1CABD243004104C1 /* YFBecaonStreamData.m */; };
+		2CEC6A6E1CABD04A004104C1 /* YFBeaconDataCollecter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CEC6A6D1CABD04A004104C1 /* YFBeaconDataCollecter.h */; };
+		2CEC6A701CABD04A004104C1 /* YFBeaconDataCollecter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC6A6F1CABD04A004104C1 /* YFBeaconDataCollecter.m */; };
+		2CEC6A7E1CAC1C0E004104C1 /* YFBeaconData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC6A7D1CAC1C0E004104C1 /* YFBeaconData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,7 +19,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				2CEC6A6E1CABD04A004104C1 /* YFBeaconSteamCollecter.h in CopyFiles */,
+				2CEC6A6E1CABD04A004104C1 /* YFBeaconDataCollecter.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -28,12 +27,10 @@
 
 /* Begin PBXFileReference section */
 		2CEC6A6A1CABD04A004104C1 /* libYFBeaconStreamCollecter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYFBeaconStreamCollecter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CEC6A6D1CABD04A004104C1 /* YFBeaconSteamCollecter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFBeaconSteamCollecter.h; sourceTree = "<group>"; };
-		2CEC6A6F1CABD04A004104C1 /* YFBeaconSteamCollecter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFBeaconSteamCollecter.m; sourceTree = "<group>"; };
-		2CEC6A761CABD0BA004104C1 /* YFBeaconEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFBeaconEmitter.h; sourceTree = "<group>"; };
-		2CEC6A771CABD0BA004104C1 /* YFBeaconEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFBeaconEmitter.m; sourceTree = "<group>"; };
-		2CEC6A791CABD243004104C1 /* YFBecaonStreamData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFBecaonStreamData.h; sourceTree = "<group>"; };
-		2CEC6A7A1CABD243004104C1 /* YFBecaonStreamData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFBecaonStreamData.m; sourceTree = "<group>"; };
+		2CEC6A6D1CABD04A004104C1 /* YFBeaconDataCollecter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = YFBeaconDataCollecter.h; sourceTree = "<group>"; };
+		2CEC6A6F1CABD04A004104C1 /* YFBeaconDataCollecter.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = YFBeaconDataCollecter.m; sourceTree = "<group>"; };
+		2CEC6A7C1CAC0FED004104C1 /* YFBeaconData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = YFBeaconData.h; sourceTree = "<group>"; };
+		2CEC6A7D1CAC1C0E004104C1 /* YFBeaconData.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = YFBeaconData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +63,10 @@
 		2CEC6A6C1CABD04A004104C1 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				2CEC6A6D1CABD04A004104C1 /* YFBeaconSteamCollecter.h */,
-				2CEC6A6F1CABD04A004104C1 /* YFBeaconSteamCollecter.m */,
-				2CEC6A761CABD0BA004104C1 /* YFBeaconEmitter.h */,
-				2CEC6A771CABD0BA004104C1 /* YFBeaconEmitter.m */,
-				2CEC6A791CABD243004104C1 /* YFBecaonStreamData.h */,
-				2CEC6A7A1CABD243004104C1 /* YFBecaonStreamData.m */,
+				2CEC6A6D1CABD04A004104C1 /* YFBeaconDataCollecter.h */,
+				2CEC6A6F1CABD04A004104C1 /* YFBeaconDataCollecter.m */,
+				2CEC6A7C1CAC0FED004104C1 /* YFBeaconData.h */,
+				2CEC6A7D1CAC1C0E004104C1 /* YFBeaconData.m */,
 			);
 			name = source;
 			path = YFBecaonSteam;
@@ -133,9 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CEC6A701CABD04A004104C1 /* YFBeaconSteamCollecter.m in Sources */,
-				2CEC6A7B1CABD243004104C1 /* YFBecaonStreamData.m in Sources */,
-				2CEC6A781CABD0BA004104C1 /* YFBeaconEmitter.m in Sources */,
+				2CEC6A701CABD04A004104C1 /* YFBeaconDataCollecter.m in Sources */,
+				2CEC6A7E1CAC1C0E004104C1 /* YFBeaconData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
